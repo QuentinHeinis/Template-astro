@@ -1,0 +1,29 @@
+@mixin small-up {
+    @media screen and (min-width: ($sm)) {
+        @content;
+    }
+}
+
+@mixin medium-up {
+    @media screen and (min-width: ($md)) {
+        @content;
+    }
+}
+
+@mixin large-up {
+    @media screen and (min-width: ($lg)) {
+        @content;
+    }
+}
+
+@mixin xlarge-up {
+    @media screen and (min-width: ($xl)) {
+        @content;
+    }
+}
+
+@mixin xxlarge-up {
+    @media screen and (min-width: ($xxl)) {
+        @content;
+    }
+}
